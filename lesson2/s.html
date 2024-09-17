@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: brown;
+            font-family:'Courier New', Courier, monospace;
+        }
+        li{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        td{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div style="width:80%; margin:auto; background-color: rgb(16, 205, 205);">
+        <div style="text-align: center;">
+            <img src="../lesson1/picture/sad.jpeg">
+            <h1>Sad Mood</h1>
+        </div>
+    <hr>
+    <div class="content">
+        <div>
+            <h1>Current courses</h1>
+            <ul>
+                <li>CSE 451 - CSS (<a href="https://www.w3schools.com/html/default.asp">Link</a>)</li>
+                <li>CSE 432 - Physic</li>
+                <li>CSE 122 - English</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Hobbies</h1>
+            <ul>
+                <li>Books</li>
+                <li>Cooking</li>
+                <li>Travel</li>
+            </ul>
+        </div>
+        <div></div>
+            <h1>Course</h1>
+            <table border="7" width="500" align="about">
+                <tr>
+                    <th>Course number</th>
+                    <th>Course title</th>
+                    <th>Semester taken</th>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">For credit</td>
+                </tr>
+                <tr>
+                    <td><a href="#">6.813</a></td>
+                    <td>User Interface Design</td>
+                    <td>Spring 20222</td>
+                </tr>
+                <tr>
+                    <td>6.034</td>
+                    <td>Artificial Intelligence</td>
+                    <td>Fall 2021</td>
+                </tr>
+                <tr>
+                    <td>6.006</td>
+                    <td>Introduction to Algorithms</td>
+                    <td>Winter 2019</td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">Listener</td>
+                </tr>
+                <tr>
+                    <td>6.867</td>
+                    <td>Machine Learning</td>
+                    <td>Summer 2018</td>
+                </tr>
+                <tr>
+                    <td>6.830</td>
+                    <td>Database Systems</td>
+                    <td>Spring 2020</td>
+                </tr>
+                </table>
+        </div>
+        <div>
+            <h1>Submit information</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="txtFullname">Full name:</label></td>
+                        <td><input type="text" name="fn" id="txtFn"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <label for="rdom">Male</label>
+                            <input type="radio" name="gen" id="rdom" checked>
+                            <label for="rdofm">Female</label>
+                            <input type="radio" name="gen" id="rdofm">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobies:</td>
+                        <td>
+                            <label for="checkgames">Games</label>
+                            <input type="checkbox" name="games" id="checkgames">
+                            <br>
+                            <label for="checkmusic">Music</label>
+                            <input type="checkbox" name="music" id="checkmusic">
+                            <br>
+                            <label for="checkmovies">Movies</label>
+                            <input type="checkbox" name="movies" id="checkmovies">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtdob">Date of birth:</label></td>
+                        <td><input type="date" name="dob" id="txtdob"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cbocountry">Country:</label></td>
+                        <td>
+                            <select name="country" id="cbocountry">
+                                <option value="1">ESP</option>
+                                <option value="2">GER</option>
+                                <option value="3">FRA</option>
+                                <option value="4">ENG</option>
+                                <option value="5">ITA</option>
+                                <option value="6">POR</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtf">Picture:</label></td>
+                        <td>
+                            <input type="file" id="txtf">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtmail">Email:</label></td>
+                        <td>
+                            <input type="email" name="email" id="txtmail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtpass">Password:</label></td>
+                        <td>
+                            <input type="password" name="pass" id="txtpass">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtfw">Favorite word</label></td>
+                        <td>
+                            <textarea name="fw" id="txtfw" cols="30" row="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="submit">
+                            <input type="reset" value="reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div><a href="../lesson1/img.html">Back</a></div>
+        <br>
+        <br>
+    </div>
+    </div>
+</body>
+</html>
